@@ -1,6 +1,6 @@
 #for existing function we can use another naem, which is nothing but function aliasing.
 def wish (name):
-    print("good morning :", name)
+    print("good morning :", name) #commented
 greeting = wish
 print(id(wish))
 print(id(greeting))
